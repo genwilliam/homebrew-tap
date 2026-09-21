@@ -8,7 +8,7 @@ cask "surge@6.6.0" do
   desc "Advanced network toolbox"
   homepage "https://nssurge.com/"
 
-  depends_on macos: ">= :monterey"
+  depends_on macos: :monterey
 
   auto_updates false
 
